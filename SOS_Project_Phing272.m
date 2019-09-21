@@ -158,31 +158,6 @@ disp('Keyfiles saved as: POS_KEY.txt and NEG_KEY.txt');
 disp(newline);
 disp('Quitting..');
 
-
-    figure(6);
-    plot(data);
-    title('Audio Data')
-    xlabel('Samples');
-    ylabel('Amplitude');
-    
-    figure(7);
-    plot(POS_KEY);
-    title('POS-KEY')
-    xlabel('Samples');
-    ylabel('Amplitude');
-    
-    figure(8);
-    plot(NEG_KEY);
-    title('NEG-KEY')
-    xlabel('Samples');
-    ylabel('Amplitude');
-    
-    figure(9);
-    plot(data_encrypt);
-    title('Audio Data Encrypted')
-    xlabel('Samples');
-    ylabel('Amplitude');
-
 end
 
 %4. Quit
